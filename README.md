@@ -4,6 +4,8 @@ This is a static portfolio and interactive résumé built with HTML, CSS and Jav
 
 **Live site:** https://solomonpaulrd.github.io/rdsolomonpaulrd/
 
+**Deployment:** GitHub Actions
+
 ## GitHub Pages deployment
 
 Deployment is automated by `.github/workflows/pages.yml`. In the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. Every push to `main` will then publish the site automatically.
