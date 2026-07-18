@@ -1,18 +1,12 @@
 # Solomon Paul R D — Interactive Résumé Website
 
-This is a static website built with HTML, CSS and JavaScript. It can be hosted directly on GitHub Pages without a backend, database or build command.
+This is a static portfolio and interactive résumé built with HTML, CSS and JavaScript. It runs on GitHub Pages without a backend, database or build command.
 
-## Publish on GitHub Pages
+**Live site:** https://solomonpaulrd.github.io/rdsolomonpaulrd/
 
-1. Create a new public GitHub repository, for example `interactive-resume`.
-2. Upload all files and folders from this package to the repository root.
-3. Open the repository **Settings**.
-4. Select **Pages** under **Code and automation**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and `/ (root)`, then click **Save**.
-7. After GitHub finishes publishing, the site will be available at:
+## GitHub Pages deployment
 
-   `https://YOUR-USERNAME.github.io/interactive-resume/`
+Deployment is automated by `.github/workflows/pages.yml`. In the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. Every push to `main` will then publish the site automatically.
 
 ## Files
 
@@ -20,6 +14,7 @@ This is a static website built with HTML, CSS and JavaScript. It can be hosted d
 - `assets/style.css` — responsive design and print styles
 - `assets/script.js` — skill drawers, project filters, dashboard gallery and mobile menu
 - `.nojekyll` — tells GitHub Pages to serve the static files directly
+- `.github/workflows/pages.yml` — publishes the site through GitHub Actions
 
 ## Personalise later
 
